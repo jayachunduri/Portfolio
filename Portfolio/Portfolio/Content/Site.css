@@ -1,0 +1,210 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: black;
+    background-color: #b6ff00;
+
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+.Name{
+    text-align: center;
+    color: black;
+}
+
+.Head{
+    text-align: center;
+    color: blue;
+}
+
+a{
+    color: blue;
+}
+
+a:hover{
+    
+    color:red;
+}
+
+.Footer {
+            
+            color:black;
+            clear:both;
+            text-align:center;
+            padding:5px; 
+}
+
+.footerLeft {
+    float:left;
+    
+}
+
+.footerRight {
+    float:right;
+}
+
+.ContactHeader{
+    display:inline;
+}
+
+.LogoImage{
+    display:inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 200px;
+    margin-left: 50px;
+    
+}
+
+.ContactHeadRight{
+    display:inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 200px;
+    margin-left: 50px;
+    float: right;
+}
+
+.Container{
+    display:inline;
+}
+
+.ContainerAboutMe {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 200px;
+    margin-left: 50px;
+}
+
+.ContainerWork{
+    
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.ContainerContact{
+    
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    margin-left: 200px;
+}
+
+.ContainerImage{
+    
+   background: center center no-repeat;
+}
+
+.WorkImageSection1{
+    display: inline;
+}
+
+.WorkImage1{
+    background-color:#b6a8a8;
+    height:10px;
+    width:10px;
+    padding:5px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 250px;
+    margin-right: 400px;
+    margin-left: 300px;
+}
+
+.WorkImage2{
+    background-color:#b6a8a8;
+    height:10px;
+    width:10px;
+    padding:5px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 250px;
+    margin-right: 400px;
+    margin-left: 300px;
+}
+
+.WorkImageSection2{
+    display: inline;
+}
+
+.WorkImage3{
+    background-color:#b6a8a8;
+    height:10px;
+    width:10px;
+    padding:5px;
+    display: inline-block;
+    margin-top: 30px;
+   margin-bottom: 250px;
+    margin-right: 400px;
+    margin-left: 300px;
+}
+
+.WorkImage4{
+    background-color:#b6a8a8;
+    height:10px;
+    width:10px;
+    padding:5px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 250px;
+    margin-right: 400px;
+    margin-left: 300px;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
