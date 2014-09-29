@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Portfolio.Models;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace Portfolio.Controllers
 {

@@ -7,6 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+
 namespace Portfolio.Models
 {
     using System;
@@ -15,10 +18,15 @@ namespace Portfolio.Models
     public partial class Contact
     {
         public int ContactID { get; set; }
+        [Required]
         public string FirstName { get; set; }
+
         public string LastName { get; set; }
+
+        [Required]
         public string Email { get; set; }
         public string PhoneNo { get; set; }
+        [Required]
         public string Coment { get; set; }
     }
 }
