@@ -1,0 +1,43 @@
+﻿@model Portfolio.Models.ContactForm
+
+@{
+    ViewBag.Title = "DragonCombat";
+}
+
+<h2 style="text-align:center">Dragon Combat</h2>
+
+<p class="DragonCombatMain">
+                    <img src="~/Content/themes/base/images/DragonCombat1.png" style="margin-left: 600px; max-height: 300px; max-width:400px" />
+    </p>
+<div class="DragonCombatSummery">
+    <strong>Summery</strong><br />
+    <ul>
+        <li>
+            Has an <em>abstract</em> class GamePlayer
+        </li>
+        <li>
+            The classes, Player and Enemy were <em>inherited</em> from the GamePlayer class
+        </li>
+        <li>
+            Game class handles actual game logic. <br />Player and Enemy classes takes the damage, makes the damage and keeps track of HP points
+        </li>
+        <li>
+            It won't heal the user more than the maximum HP point.
+        </li>
+        <li>
+            It will ask for user's choice, until he enters correct one.
+        </li>
+        <li>
+            Has exception handling for null input
+        </li>
+        <li>
+            User can skip the introduction
+        </li>
+        
+    </ul>    
+
+
+<p> Click <a href="https://github.com/jayachunduri/DragonCombatSimulatorV2/raw/master/DragonCombatV2/DragonCombatV2/obj/Debug/DragonCombatV2.exe">Here </a>to download exe file and play the game</p>
+<p> Click <a href="https://github.com/jayachunduri/DragonCombatSimulatorV2/tree/master/DragonCombatV2/DragonCombatV2"> Here</a> to view code on Github</p>
+
+</div>

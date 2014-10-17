@@ -1,64 +1,79 @@
-﻿@model Portfolio.Models.Contact
+﻿@model Portfolio.Models.ContactForm
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Contact Form";
 }
 
-<h2>Enter Your Information</h2>
+<h2 style="text-align:center">Enter Your Details</h2>
 
-@using (Html.BeginForm()) {
+<form id="contactForm" action="@Url.Action("Index", "Contact")" method="post">
     @Html.AntiForgeryToken()
     @Html.ValidationSummary(true)
 
     <fieldset>
-        <legend>Contact</legend>
+        
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.FirstName)
-        </div>
-        <div class="editor-field">
+        
+        
+        <div class="FirstName">
             
-            @Html.EditorFor(model => model.FirstName)
+            <br />  
+             @Html.TextBoxFor(model => model.FirstName, new { @placeholder = "First Name" }) 
+            <br /><div class="ErrorMessage">
             @Html.ValidationMessageFor(model => model.FirstName)
+                </div>
+            <br />
         </div>
-
-        <div class="editor-label">
-            @Html.LabelFor(model => model.LastName)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.LastName)
+            
+        <div class="LastName">
+            
+       
+            @Html.TextBoxFor(model => model.LastName, new { @placeholder = "Last Name" })
+            <br /><div class="ErrorMessage">
             @Html.ValidationMessageFor(model => model.LastName)
+                </div>
+            <br />
         </div>
+      
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Email)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.Email)
+        
+        <div class="Email">
+            
+            
+            @Html.TextBoxFor(model => model.Email, new { @placeholder = "Email" })
+            <br /><div class="ErrorMessage">
             @Html.ValidationMessageFor(model => model.Email)
+                </div>
+            <br />
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.PhoneNo)
+        <div class="Phone">
+            
+   
+            @Html.TextBoxFor(model => model.Phone, new { @placeholder = "Phone No" })
+            <br /><div class="ErrorMessage">         
+            @Html.ValidationMessageFor(model => model.Phone)
+                </div>
+            <br />
         </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.PhoneNo)
-            @Html.ValidationMessageFor(model => model.PhoneNo)
+        
+
+        <div class="Comment" style="text-align:center">
+            
+        
+            @Html.TextAreaFor(model => model.Comment, new { @placeholder = "Comment" })
+            <br /><div class="ErrorMessage">
+            @Html.ValidationMessageFor(model => model.Comment)
+                </div>
+            <br />
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Coment)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.Coment)
-            @Html.ValidationMessageFor(model => model.Coment)
-        </div>
-
-        <p>
-            <input type="submit" value="Create" />
+        <p style="text-align:center">
+            <input type="submit" value="Submit""/>
         </p>
     </fieldset>
-}
+</form>
+
 
 
 @section Scripts {

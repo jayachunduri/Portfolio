@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="spJayaModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="spJayaModelStoreContainer">
+    <EntitySet Name="GameScores" EntityType="spJayaModel.Store.GameScores" store:Type="Tables" Schema="spJaya" />
+  </EntityContainer>
+  <EntityType Name="GameScores">
+    <Key>
+      <PropertyRef Name="ScoreID" />
+    </Key>
+    <Property Name="ScoreID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Score" Type="int" />
+    <Property Name="Game" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="datetime" Nullable="false" StoreGeneratedPattern="Computed" />
+  </EntityType>
+</Schema>

@@ -1,60 +1,52 @@
 ﻿@{
     ViewBag.Title = "AboutMe";
 }
-
-<p>
-  <h2><strong>Education</strong></h2> 
-    <ul>
-        <li>SeedPaths - Denver, CO - 2014
-           <p>
-            8-week software & professional development boot camp<br />
-            Fundamentals of C#, SQL, CSS, HTML, Javascript, JQuery
-            </p>
-        </li>	
-        <li>
-            Master of Computer Applications - India - 2001
-            <p>
-                COBOL, C, C++, Software Engineering<br />
-                Principles of Programming Languages,
-                Systems Analysis and Design
-            </p>
-        </li>
-        <li>
-            Bachelor of Science in Electronics - India - 1998
-            <p>
-                Electronics, Mathematics, Physics
-            </p>
-        </li>
-    </ul>
-</p>
-
-<h2><strong>Experiance</strong></h2> 
-
-<div class="Ciber">
-       <p>
-           <strong> Ciber </strong>- Pittsburgh, PA - Oct. 2012 – Feb. 2014 <br />
-           Client:<strong> Direct Energy </strong><br />
-           Role: <strong>QA Analyst</strong>
-       </p>
-
-        <ul>
-            <li> Built SQL queries for back-end testing </li>
-            <li>Worked with automation team for regression test scripts generation using C#</li>
-            <li>Performed unit testing and whole testing life cycle in development and QA environments</li>
-            <li>Coordinated with multiple team members, including business analysts, developers to meet company deadlines on internal projects </li>
-            <li>Worked as an onsite coordinator and provided KT sessions and guidance to off shore team.</li>
-            
-        </ul>
-        
-        <p>
-           <strong> CompUGroup </strong>- Pittsburgh, PA - July. 2012 – Aug. 2014 <br />
-           Client:<strong> PNC Healthcare </strong><br />
-           Role: <strong>QA Analyst</strong>
-        </p>
-        
-        <ul>
-            <li>Tested templates and output files to ensure Explanation of Benefit data was captured and stored accurately and efficiently</li>
-            <li>Coordinated with developers to reproduce bugs and tracked them to closure</li>
-        </ul>
+<div class="wrapper">
+<div style="text-align: center">
+    <img class="AboutImage" src="~/Content/themes/base/images/Jaya.jpg" />
 </div>
+<br /><br />
+<div class="AboutPage">
+    
+    <div class="AboutEducation">
+        <h2><strong style="color: #8C4646">Education</strong></h2>
+        <ul>
+            <li>SeedPaths - Denver, CO - 2014<br />
+                Fundamentals of C#, SQL, CSS, HTML, Javascript, JQuery<br />
 
+            </li>
+            <li>Master of Computer Applications - India - 2001<br />
+                COBOL, C, C++, Software Engineering<br />
+
+            </li>
+            <li>Bachelor of Science in Electronics - India - 1998<br />
+                Electronics, Mathematics, Physics
+            </li>
+        </ul>
+    </div>
+
+    <div class="LinkedInLogo" style="border-color: #8C4646">
+        <a href="https://www.linkedin.com/pub/jaya-chunduri/52/ba4/8a0">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBhISDxQQEBQVDw8VEBIQEhgQFhUSEA4XFBAXFBQQFBQXGyYeGBokGRUUHy8gIycpLCwsFiAxNTAqOiYrLSkBCQoKDgwOGg8PGiwkHBw0KSkpKjQqLSwqLCwpNS8qLywsKSwyLCw1LSwpLCkpKiwpLC0sLCwpLCksLCwqLCwsLP/AABEIAMgAyAMBIgACEQEDEQH/xAAcAAEAAwEBAQEBAAAAAAAAAAAABQYHBAMIAgH/xABPEAABAwIBBgYNCAYJBQAAAAABAAIDBBEFBgcSEyFzFjE1QVGyIiRUYWJygZKTsbPR4QgjNFNxdJHBFBUlMjPCF0JDUoKDhKG0GJSiw+P/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAwUBBAYC/8QAKBEAAgEDAwMEAwEBAAAAAAAAAAECAwQRElFxEyEzBTJBgSIjMZFC/9oADAMBAAIRAxEAPwDcUREAREQBFQc7mW1ThsNO+l0NKSZzHaxpcLCPSFrEc65s0WXtViRqf0rV/NarQ1TS398Ove5N+IIDR0RZbnvywrKNlPHSuMDZdYXyNA0rstaNpI2cZPTsQGpIszzJZW1dbBO2rcZhE9gZK4AOdpNJdG4jYSLA+VaYgCIiAIsDygz14jDV1ELNRoR1EsbNKMk2ZIQLnS47BbrQzF8THnjdGxxtxXLQSgPdERAEREARF5VUhbG5w4wxzh5GkoD1RfP2EZ78SkqIY3ajRfPHG60ZBs6QNNjpdBX0CgCIiAIiIAiIgCIiAyL5RX0aj+8v9iVxfJ0463/T+p67flFfRqP7y/2JXF8nTjrf9P6nrBk2pUTOnllBRRwx1NKK6OYv7F5ZotMYBvZwO3sle1jHyi+Ki8ao6rFkwWbIfL+CbD6qanpBSRUjS7VMLA1/zRk2aIAB2cah8J+UBDLMyOWndTxuJ0pHytLYwGlxcQG3PFxd9QOajkXGN27/AIjlnWSmDirraalcSxssrGOI4w213W79gQPtWDJqtd8om0hEFHpwg7DLLoSOHTohpDfsJWgZDZf0+JxOdEDFMy2tifbTZficCNjmmx2hUnObmuoKfCpKili1E0Aa8Fpcda3SDXNfc7dhvfpVJzI1jmY1G0E2kgmY4cxAaHi/lCArOWPKNZ98qPalfQeWGXbMMw2KQASVMkcbII3HY8hjdJ7rbdFo4/IOdfPmV/KNZ98qPalfrKfKWSuqddKdBgYyGNv7wgjaANg5zxuPSUBrWRGdLFMSqhBFT0zY22dNIdaWwtv421x5h+S68vc9jKSV1NRsbUTsOjI+QkQROHGwW2vcOfaAOlTNLS0+GYBLLQEPaKV87ZdmlUPdHsmcem5GzmtZfPmTOKRU9ZFU1MRq2RuMhZcDWPt2LnF1wbOOlY8aAvcWfXFI3B00MLmO2hro5ItIeC/S/IrX8iMtocTptdCCx7ToSxusXROte1xxgjaDzrIMtc78GIUT6V1G5jjYxPdIx2pe0gh4AF+K42dKhM2OOyUslc5hI/Zk8n2OjsWO8hcUBomXefAU0zqagY2eRhLZJJCdS1w42Ma03eRzm4H2qsYZn+qtIsq4opYXAtdqQY5WXBF23cQ63Rs+1UjIrBm1eI01NIToSSjWdLmgF7xfpNiL99fSeO5GUUtFJTmCNsYicGaDGtdEQ06LmEC4IKA+YsnfptN96h9qF9gL4/yc+mU33qD2rV9gIgwiIsmAiIgCIiAIiIDIvlFfRqP7y/2JWf5u84n6q19oP0jXav8AtNXoaAPguve63vLPIumxGNjKsvayJ5kaY3hm0t0dpI6FUf6EcI+tm9O33JhjK+SF/wCow9wj/uP/AJLiz14r+k0eF1Ojq9bHLLo30tDSjYdG9hf8FZ/6EcI+tl9O33KaxvN7h1VT01PLK4R0rDHFoStDrFoHZG202aEwxqRn2ajkXGN27/iOVKzZcsUP3gezct7wHIego6aopYZHGKpBbLpytc6xYWdiebYVG4JmowulqYqmKWQyRP02aczXNvYjaLd9MMakSudrkSs3I67VimZjlyn3c/sl9A4/R01ZTSUs0gEUjdF2g9rXWuDsPkVaybzZYbQ1TKqCV5lYHBusma5vZN0TcW6EwzGpGB5Yco1n3yo9qVd85ebVlLRU1bSNOqbDHHUjjN3AFtQftJ0T/hV6xHM/hU00kz5ZdOSR8rtGdobd7i42FtguVdaiKmkpzTSOY+F0Wpc1zmnSbo6Njt6E0szqRhWbXKkSU82B1LtGGpikjpXOOyKR7T80TzNcdo79+lU7C5P0KuArKcT6l7o54JR+9s0XWvsv/WB4uLpW0tzJ4QCCJpgQQQRUNBBBuCDbjVgyhyFw2ta39JIfM1jWCZsjW1Dg0WGm8bHeUJhjUilQ5U5LObpOpWRutta6mdpDvdjcfgVOZN0WE4jS1gw2mbTuMUlIXmMRvOsjuCBcnR4uPoUeMxeGaV/0qbR6NZFf7L6KuWSWS1BhrXtpXAGQtMjpJdNz9G9uM2HGeIJhmMo+asLrZsPrmSlujUU03ZMfs2tOi9h6ARcX791sWNZ+6R1G8U8cxqnxlobI0NZE5zbaTn37IC/Nx95WbK7N/huIu1sxEc9rayF7WvcBxB42h1u+LqLydzRYXSytmdIaqRhDma97NW0jaHaDbAkHpumGZ1IwjJ5pFbTA7CKqAG+w31rb3C+v1ngzQYY+qNS2SUzGc1FmzNLdLWaw2aBxXWhpjAzkIiIAiIgCIiALwrqxsUT5XmzGML3HvNFyvdQGX3JlTuT1gvUFmSW54nLTFvYzxxnxV5nqHujptIiKJh7EC/H0E9/nPQvXgFTeH53wUhkwO04vEClFaOTXaPZFJpUu8u7ZW+AVN4fnfBOAVN4fnfBWRFjXLczojsVvgFTeH53wTgFTeH53wVkRNctxojsVvgFTeH53wTgFTeH53wVkRNctxojsVvgFTeH53wTgFTeH53wVkRNctxojsVvgFTeH53wTgFTeH53wVkRNctxojsVvgFTeH53wTgFTeH53wVkRNctxojsVvgFTeH53wTgFTeH53wVkRNctxojsVmXIWIC8L3xSDa1wPEeboVnzfZUSyPkoas6VRENJjzxysBsb9JFxt5we8v4obCm2x+G2y8L725+wf7gvM/zi1L47klJ9Oacfl4ZqSIirC5CIiAIiIAoDL7kyp3J6wU+oDL7kyp3J6wUlP3rlEdXxy4ZUcmfocO7ClFF5M/Q4d2FKKwl/WU8f4gi96KkMjwwbOcnoHSrNT4XEwbGgnpdtJUM6qj2NmlQc1n4KkitFZg0bxsGg7mI4vKFWZYy1xa7YQbFIVFM81aLp8H5REUpCEREAREQBERAEREAUPh3L8G4f1HqYUPh3L8G4f1Hp8PhmV7o8o1FERVhdBERAEREAUBl9yZU7k9YKfUBl9yZU7k9YKSn71yiOr45cMqOTJ7Th3YUndQ+Tj+1IvECktNWMv6ymi+yLDk1a7+mzfw2qeVJw/EDFIHjaOJw6R0K1U2LRPFw8A9DjYjyFaFaLUslpb1E44+Udiq2OEa91uht/tspiuxyKMbCHv5g03/E8yqk1SXOLnHsibleqEXnJ4uqi06fk/d0uvHWJrFtlfk9rpdeOsTWIMntdLrx1iaxBk9rpdeOsTWIMntdLrx1iaxBk9rqHw0/t+DcP6j1JaxReEm+PQbmTqPWfh8MzF/lHlGqIiKrLsIiIAiIgCgMvuTKncnrBT6gMvuTKncnrBSU/euUR1fHLhlEyef2rF4gUjrFC4HJ2tH4gXfrlaNdygUuxJU9NJJcxtL7cduZev6qn+qd+ClciHXbL4zfUVZ1pVK0oyaLKlbRnBSbfcof6qn+qd+C5543MOi8FrrXseNaIqPlg+1T/AIG/mvVKq5ywzzXt404akzigY57tFgLndA410/qqf6p/4L+5JvvVN8V3qV7SrVcJYQoW8akNTZQ/1VP9U78F5VFNJGAZGOYDsF+daCozG8KM4Y2+i0Pu489rW2LxG4ee5LO0il+OclK1i6YqGZ37sbz5LK5UWERRDsGi/Sdrj5V2pK42RiNmv+mUV2EVA/s3eTauSUOabOBae+LLRV5VNKyRui9ocO+sK4fyjMrOPwzPNYmsXZlBgxp3BzbmJx2eCf7pURrluRaksorpxcJaZHXrFwYE6+PQbp/s3r01q58nHXx2DdSezcvTX4y4YpvM48o1xERVBfhERAEREAUBl9yZU7k9YKfUBl9yZU7k9YKSn71yiOr45cMzHB5fmGeKuzXKIwuX5lv2Lr1yumjmdRf8gX3ZL4zfUrZdU7Ny68c3jt6quCp6/kZ0Nq/1RP7dUDLeS1X/AJbfzV+Wc5fPtV/5TfWV7tvIR3rxS/w9MjZL1jfEf6lod1mmQsl61u7f6gtKWbryGLF5pfZ/bpdfxV7LbFHw0w1Z0XPdoXHGBa5steMXJpL5Nuc1CLk/gl6jF4YzZ8jGnoJF1+6bEI5P4b2v8UgrHDN39v8AuV+4KxzHB7HaLgbgjjC3nZ9v6Va9R7949jaLpdceFVZlgjkOwuY1x+0hda0GsFsnlZOLGqMSwPYePRJHeI2grLtctddxeRY3VSWkeOh7h/5Fb1p3yir9QWNMj31yZKG+Nw7uT2blx61dGRrr41Du5PZuW5NYhLhmhReakeUbKiIqQ6QIiIAiIgCgMvuTKncnrBT6gMvuTKncnrBSU/euUR1fHLhmOUEnzbfsXRrVHUkvYBeuu76v8HJORpmbN14pt43qq63VFzWOvDPvW9RXhUlx5GdNZ+GJ+rrMs4knbg3TPWVpay3OW+1aNyz1lSWi/YReoPFF/R+838nbzd2/1BajdZNm5fevbupPUFq5S8X7DHp7zR+2fq6p+ct3a8W9/lKtypedE2p4t8eoVHQ8kSe78MuCga1NauPW99NcrvBy+o27Jo9pQbpvqUndRWTH0Kn3LPUpNc/L3M66HtR/SViVbJ87JvH9crbFhGIS/PSb2Trlb1ku7Kz1N4jH7PTWqRyGP7Zh8ST2TlBa3vqZzfuvjEPiSeyct6qv1y4ZWWzzVjyjbURFQHVBERAEREAUBl9yZU7k9YKfUBl9yZU7k9YKSn71yiOr45cMwynf2IXprFzQnZ+K/d10WDjW+5qWac/Mz71vUCvaoOaP+BPvW9QK/KiufLI6qz8EQsozoO7eG4Z1nLV1kmdQ9vN3DOs5SWflIfUfA/o/mbR37QG6k/Ja4sfzYH9oDcyfktgWb3ymPTfB9sKkZ1j2rFv/AOQq7qjZ2T2rFv8A+QqK38sTYu/BLgzHTQyLxul1fYOTybzkue0afcM6qlFE5KfQKfcM9Sllzk/czsqfsXCCwHEX/Py72Trlb6V8+Ymfn5d7J1yt6w/siq9V9sfs/Gmp3N0f2vD4svsiq5dWHNtytD4svsit+uv1y4ZWWj/dHlG5oiLnjrQiIgCIiAKAy+5MqdyesFPqAy+5MqdyesFJT965RHV8cuGYNDxfiv2vxDxfiv2ujRxj/pqGaP8AgT71vUCvy+f8PxuogBbDK+IE3IYbXNrXK6uGFb3TL5yratnOc3JNdy6t/UadOmoNPsbsskzq/Tm7hnWcoThhW90y+cuCvxGWZ2nM90rwNG7tpt0f7r3b2sqc9TaI7u+hWp6IpllzX8oDdSfktgXzzQ4hJC/TheY32Iu3YbHjCkOGFb3TL5yXFrKrPUmjFpfQo09EkzdlRs7X0WLf/wDrKoXDCt7pl85c1fjtRO0NmlfK0G4DzcA9K8UrOcJqTa7Etf1GnUpuCT7nAiIrMpDeMlPoFNuGepSywaDKmrY0MZPI1jQGtANg0DiAX74YVvdMvnKplYzbbyi/j6nSUUsM3Yr57xP+PLvZOuV3cMK3uiXzlEveXEuJuSSSekk3JWzbW8qTbfyaV7dwrpKKfY/KsWbblaHxZfZFV1WLNtytD4svsip6/jlwzXtPNHlG5oiLnTrgiIgCIiAKBy7YThlSALnUk7O8QT/sp5fiWMOaWuGk0gtIPEQRYgr1F6WnseZx1Ra3PmqE7F+1b8p82NRBI59I0z05NwG7ZYx/dLf61ukKucH63uWf0MnuXQQrQkspnJVLapCWGjjRdnB+t7ln9DJ7k4P1vcs/oZPcvfUjuR9Gexxouzg/W9yz+hk9ycH63uWf0MnuTqR3HRnscaLs4P1vcs/opPcnB+t7ln9DJ7k6kdx0Z7HGi7OD9b3LP6GT3Jwfre5Z/Qye5OpHcdGexxouzg/W9yz+hk9ycH63uWf0MnuTqR3HRnscaLs4P1vcs/oZPcnB+t7ln9DJ7k6kdx0Z7HGi7OD9b3LP6GT3Jwfre5Z/Qye5OpHcdGexxqy5sYi7FYyBcNZK53eGho3/ABIUZS5JV8rtBtNKCed7DG0fa59gtYyDyKFDGXPIfUyAaZH7rANojb07dpPOtW5rxUGs92b1lazdRSa7ItaIipDpQiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiA/9k=" style="border-color: #8C4646; max-height:100px; max-width:100px" />
+        </a>
+    </div>
+
+    <div class="AboutExperience">
+        <h2><strong style="color: #8C4646">Experience</strong></h2>
+        <ul>
+            <li>Ciber - Pittsburgh, PA - Oct. 2012 – Feb. 2014
+                <br />
+                Client:Direct Energy<br />
+                Role:QA Analyst
+            </li>
+            <li>CompUGroup - Pittsburgh, PA - July. 2012 – Aug. 2012
+                <br />
+                Client: PNC Healthcare<br />
+                Role: QA Analyst
+            </li>
+        </ul>
+    </div>
+
+</div>
+<br /><br />
+    </div>

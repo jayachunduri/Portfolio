@@ -136,28 +136,61 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Contact.cs">
-      <DependentUpon>Contacts.tt</DependentUpon>
+      <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Contacts.Context.cs">
+    <Compile Include="Models\ContactForm.cs" />
+    <Compile Include="Models\GameScore.cs">
+      <DependentUpon>GameScores.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GameScores.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Contacts.Context.tt</DependentUpon>
+      <DependentUpon>GameScores.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Contacts.cs">
+    <Compile Include="Models\GameScores.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Contacts.tt</DependentUpon>
+      <DependentUpon>GameScores.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Contacts.Designer.cs">
+    <Compile Include="Models\GameScores.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Contacts.edmx</DependentUpon>
+      <DependentUpon>GameScores.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\themes\base\images\dragonCombat.jpg" />
+    <Content Include="Content\themes\base\images\BattleShip1.png" />
+    <Content Include="Content\themes\base\images\BattleShip2.png" />
+    <Content Include="Content\themes\base\images\BattleShip3.png" />
+    <Content Include="Content\themes\base\images\DragonCombat1.png" />
+    <Content Include="Content\themes\base\images\DragonCombat2.png" />
+    <Content Include="Content\themes\base\images\DragonCombat3.png" />
+    <Content Include="Content\themes\base\images\GuessThatNumber1.png" />
+    <Content Include="Content\themes\base\images\GuessThatNumber2.png" />
+    <Content Include="Content\themes\base\images\GuessThatNumber3.png" />
+    <Content Include="Content\themes\base\images\Hangman1.png" />
+    <Content Include="Content\themes\base\images\Hangman2.png" />
+    <Content Include="Content\themes\base\images\Hangman3.png" />
     <Content Include="Content\themes\base\images\hubble.jpg" />
+    <Content Include="Content\themes\base\images\image1.png" />
+    <Content Include="Content\themes\base\images\Jaya.jpg" />
+    <Content Include="Content\themes\base\images\Jaya2.png" />
     <Content Include="Content\themes\base\images\logo_1032481_web.jpg" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -213,24 +246,42 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <EntityDeploy Include="Models\Contacts.edmx">
+    <EntityDeploy Include="Models\GameScores.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Contacts.Designer.cs</LastGenOutput>
+      <LastGenOutput>GameScores.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\Contacts.Context.tt">
+    <Content Include="Models\GameScores.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Contacts.edmx</DependentUpon>
-      <LastGenOutput>Contacts.Context.cs</LastGenOutput>
+      <DependentUpon>GameScores.edmx</DependentUpon>
+      <LastGenOutput>GameScores.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\Contacts.edmx.diagram">
-      <DependentUpon>Contacts.edmx</DependentUpon>
+    <Content Include="Models\GameScores.edmx.diagram">
+      <DependentUpon>GameScores.edmx</DependentUpon>
     </Content>
-    <Content Include="Models\Contacts.tt">
+    <Content Include="Models\GameScores.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Contacts.edmx</DependentUpon>
-      <LastGenOutput>Contacts.cs</LastGenOutput>
+      <DependentUpon>GameScores.edmx</DependentUpon>
+      <LastGenOutput>GameScores.cs</LastGenOutput>
+    </Content>
+    <EntityDeploy Include="Models\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
@@ -246,6 +297,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
+    <Content Include="Scripts\main.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
@@ -262,9 +314,13 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\About\Index.cshtml" />
     <Content Include="Views\Work\Index.cshtml" />
-    <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Contact\Greet.cshtml" />
     <Content Include="Views\Shared\Contact_Layout.cshtml" />
+    <Content Include="Views\Work\BattleShip.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
+    <Content Include="Views\Work\DragonCombat.cshtml" />
+    <Content Include="Views\Work\Hangman.cshtml" />
+    <Content Include="Views\Work\GuessThatNumber.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

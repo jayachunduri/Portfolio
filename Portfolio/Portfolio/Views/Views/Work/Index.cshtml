@@ -1,0 +1,127 @@
+﻿@{
+    ViewBag.Title = "Work";
+}
+
+<h3 style="text-align:center; color:#990000">Click on any picture to know about it and play it.</h3>
+@* Division for Work Image Section1*@
+<div class="WorkImagesSection1">
+
+
+    @* Division for Battle Ship Images*@
+    <div class="BattleShipImages">
+        <a href="@Url.Action("BattleShip", "Work")">
+
+            <div class="image active">
+                <img src="~/Content/themes/base/images/BattleShip1.png" style="width: 330px; height:200px" />
+            </div>
+            <div class="image hide">
+                <img src="~/Content/themes/base/images/BattleShip2.png" style="width: 330px; height:200px" />
+            </div>
+            <div class="image hide">
+                <img src="~/Content/themes/base/images/BattleShip3.png" style="width: 330px; height:200px" />
+            </div>
+        </a>
+        <em>BattleShip</em><br />
+
+        @*<div class="buttons">*@
+            <div class="image-next">
+                <strong>Next</strong>
+            </div>
+            @* &nbsp;|&nbsp;
+            <span class="image-previous">
+                <strong>Previous</strong>
+            </span>
+        </div>*@
+
+    </div>
+    @* Battle Ship Images End*@
+
+
+
+
+    @* Dragon Combat Images Start*@
+        <div class="DragonCombatImages">
+              <a href="@Url.Action("DragonCombat", "Work")">
+                    <div class="image active">
+                    <img src="~/Content/themes/base/images/dragonCombat1.png" style="width: 330px; height:200px" />
+                    </div>
+
+                    <div class="image hide">
+                        <img src="~/Content/themes/base/images/dragonCombat2.png" style="width: 330px; height:200px" />
+                    </div>
+
+                    <div class="image hide">
+                        <img src="~/Content/themes/base/images/dragonCombat3.png" style="width: 330px; height:200px" />
+                    </div>
+                    
+                </a>
+                <em>DragonCombat</em><br />
+            
+            @*<div class="DragonCombatbuttons">*@
+                <div class="image-next">
+                    <strong>Next</strong>
+                </div>
+
+               @* <div class="image-previous">
+                    <strong>Previous</strong>
+                </div>*@
+            @*</div>*@
+        </div>
+    @* Dragon Combat Images End*@
+    </div>
+    @* Work Images Section1 End*@
+
+
+        @*Work Image Section2 Start*@
+        <div class="WorkImagesSection2">
+
+            @*Guess That Number Images Start*@
+            <div class="GuessThatNumberImages">
+
+                <a href="@Url.Action("GuessThatNumber", "Work")">
+                <div class="image active">
+                        <img src="~/Content/themes/base/images/GuessThatNumber1.png" style="width: 330px; height:200px" />
+                </div>
+                 <div class="image hide">
+                     <img src="~/Content/themes/base/images/GuessThatNumber2.png" style="width: 330px; height:200px" />
+                 </div>
+                 <div class="image hide">
+                     <img src="~/Content/themes/base/images/GuessThatNumber3.png" style="width: 330px; height:200px" />
+                 </div>    
+                 </a>
+                <em>GuessTheNumber</em><br />
+                <div class="image-next">
+                    <strong>Next</strong>
+                </div>
+                
+            </div>
+            @*Guess That Number Images End*@
+
+            @*Hangman Images Start*@
+            <div class="HangmanImages">
+                <a href="@Url.Action("Hangman", "Work")">
+                <div class="image active">
+                    <img src="~/Content/themes/base/images/Hangman1.png" style="width: 330px; height:200px" />
+                </div>
+                <div class="image hide">
+                    <img src="~/Content/themes/base/images/Hangman2.png" style="width: 330px; height:200px" />
+                </div>
+                <div class="image hide">
+                    <img src="~/Content/themes/base/images/Hangman3.png" style="width: 330px; height:200px" />
+                </div>
+                </a>
+                        
+                <em>Hangman</em><br />
+                 <div class="image-next">
+                    <strong>Next</strong>
+                </div>
+
+             </div>
+            @*Hangman Images End*@
+
+            </div>
+            @*Work Images Section2 End*@
+
+
+    
+

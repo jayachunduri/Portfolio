@@ -1,0 +1,66 @@
+﻿@model Portfolio.Models.ContactForm
+
+@{
+    ViewBag.Title = "Contact Form";
+}
+
+<h2 style="text-align:center">Enter Your Details</h2>
+
+<form id="contactForm" action="@Url.Action("Index", "Contact")" method="post">
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        
+
+        <div class="NameDivision">
+        
+        <div class="FirstName">
+            @Html.LabelFor(model => model.FirstName)
+              
+             @Html.EditorFor(model => model.FirstName)
+            @Html.ValidationMessageFor(model => model.FirstName)
+        </div>
+            
+        <div class="LastName">
+            @Html.LabelFor(model => model.LastName)
+       
+            @Html.EditorFor(model => model.LastName)
+            @Html.ValidationMessageFor(model => model.LastName)
+        </div>
+        </div>
+
+        <div class="EmailPhoneDivision">
+        <div class="Email">
+            @Html.LabelFor(model => model.Email)
+        
+            @Html.EditorFor(model => model.Email)
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+
+        <div class="Phone">
+            @Html.LabelFor(model => model.Phone)
+       
+            @Html.EditorFor(model => model.Phone)
+            @Html.ValidationMessageFor(model => model.Phone)
+        </div>
+        </div>
+
+        <div class="Comment">
+            @Html.LabelFor(model => model.Comment)
+        
+            @Html.EditorFor(model => model.Comment)
+            @Html.ValidationMessageFor(model => model.Comment)
+        </div>
+
+        <p style="text-align:center">
+            <input type="submit" value="Create""/>
+        </p>
+    </fieldset>
+</form>
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

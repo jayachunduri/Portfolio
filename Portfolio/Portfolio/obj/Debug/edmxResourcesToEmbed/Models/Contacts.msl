@@ -9,7 +9,7 @@
           <ScalarProperty Name="LastName" ColumnName="LastName" />
           <ScalarProperty Name="Email" ColumnName="Email" />
           <ScalarProperty Name="PhoneNo" ColumnName="PhoneNo" />
-          <ScalarProperty Name="Coment" ColumnName="Coment" />
+          <ScalarProperty Name="Comment" ColumnName="Coment" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

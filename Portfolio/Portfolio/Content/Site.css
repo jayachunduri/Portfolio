@@ -2,187 +2,127 @@
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
     color: black;
-    background-color: #fee;
-
+    margin:0px 0px 0px 0px;
+    height: 100%;
 }
 
 header, footer, nav, section {
     display: block;
 }
 
-.Name{
-    text-align: center;
-    color: black;
-}
 
-.Head{
-    text-align: center;
-    color: blue;
-}
+
 
 a{
-    color: blue;
+    color: #0000FF;
 }
 
 a:hover{
     
-    color:red;
+    color:black;
 }
+
+/*.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+
+.push {
+    clear: both;
+}*/
 
 .Footer {
-            
             color:black;
-            clear:both;
-            text-align:center;
-            padding:5px; 
+            background-color: #588C7E ;
+            width: 100%;
+            height: 30%;
+            display:inline-block;
+            margin: 0px 20px 0px 0px;
 }
 
+
 .footerLeft {
-    float:left;
-    
+     background-color: #588C7E;
+     float: left;
+     margin:10px 10px 5px 10px;
 }
 
 .footerRight {
-    float:right;
-}
-
-.ContactHeader{
-    display:inline;
-}
-
-.LogoImage{
-    display:inline-block;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    margin-right: 200px;
-    margin-left: 50px;
-    
-}
-
-.ContactHeadRight{
-    display:inline-block;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    margin-right: 200px;
-    margin-left: 50px;
+    background-color: #588C7E ;
     float: right;
+    margin:10px 10px 5px 10px;
 }
+
+header{
+    background-color: #588C7E ;
+    display: inline-block;
+    width: 100%;
+            height: 30%;
+            margin:0px 0px 0px 0px;
+}
+
+.Name{
+    float: left;
+    background-color: #588C7E;
+    color:#F2E394; 
+    font-family: Georgia, serif;
+}
+
+.Head{
+    float: right;
+    background-color: #588C7E ;
+    color:#F2E394;
+}
+
+/*Home page start*/
 
 .Container{
     display:inline;
+    margin: 0px 20% 0px 20%;
+   
 }
 
 .ContainerAboutMe {
     display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    margin-right: 200px;
-    margin-left: 50px;
+    margin: 0px 10% 50px 0px;
+    color: black;
 }
 
 .ContainerWork{
-    
     display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin: 0px 10% 50px 0px;
+    color: black;
 }
 
 .ContainerContact{
     
     display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    margin-right: 50px;
-    margin-left: 200px;
+    margin: 0px 0px 50px 0px;
+    color: black;    
 }
 
 .ContainerImage{
     
    background: center center no-repeat;
+   align-items: center;
+    margin-left: 100px;
 }
+/*Home page start*/
 
-.WorkImageSection1{
-    display: inline;
-}
 
-.WorkImage1{
-    background-color:#b6a8a8;
-    height:10px;
-    width:10px;
-    padding:5px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-bottom: 250px;
-    margin-right: 400px;
-    margin-left: 300px;
-}
-
-.WorkImage2{
-    background-color:#b6a8a8;
-    height:10px;
-    width:10px;
-    padding:5px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-bottom: 250px;
-    margin-right: 400px;
-    margin-left: 300px;
-}
-
-.WorkImageSection2{
-    display: inline;
-}
-
-.WorkImage3{
-    background-color:#b6a8a8;
-    height:10px;
-    width:10px;
-    padding:5px;
-    display: inline-block;
-    margin-top: 30px;
-   margin-bottom: 250px;
-    margin-right: 400px;
-    margin-left: 300px;
-}
-
-.WorkImage4{
-    background-color:#b6a8a8;
-    height:10px;
-    width:10px;
-    padding:5px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-bottom: 250px;
-    margin-right: 400px;
-    margin-left: 300px;
-}
 
 /* Styles for basic forms
 -----------------------------------------------------------*/
 fieldset {
-    border: 1px solid #ddd;
+    /*border: 1px solid #ddd;*/
     padding: 0 1.4em 1.4em 1.4em;
     margin: 0 0 1.5em 0;
 }
 
-legend {
-    font-size: 1.2em;
-    font-weight: bold;
-}
 
-textarea {
-    min-height: 75px;
-}
 
-.editor-label {
-    margin: 1em 0 0 0;
-}
-
-.editor-field {
-    margin: 0.5em 0 0 0;
-}
 
 
 /* Styles for validation helpers
@@ -208,3 +148,334 @@ textarea {
 .validation-summary-valid {
     display: none;
 }
+
+/*Work Carousel Start*/
+.hide{
+    display: none;
+}
+
+/*Work Carousel End*/
+
+/*Work Images Start*/
+.WorkImagesSection1 {
+    display: inline;
+}
+
+.BattleShipImages{
+    display: inline-block;
+    max-height: 90px;
+    max-width: 90px;
+    background-color:#b6a8a8;
+    padding:5px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 300px;
+    
+}
+
+.DragonCombatImages{
+    display: inline-block;
+   
+    background-color:#b6a8a8;
+    height:100px;
+    width:100px;
+    padding:5px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 250px;
+}
+
+.WorkImagesSection2 {
+    display: inline-block;
+}
+
+.GuessThatNumberImages{
+    display: inline-block;
+    max-height: 90px;
+    max-width: 90px;
+    background-color:#b6a8a8;
+    padding:5px;
+    margin-top: 30px;
+    margin-bottom: 170px;
+    margin-right: 250px;
+    margin-left: 300px;
+}
+
+.HangmanImages{
+    display: inline-block;
+   
+    background-color:#b6a8a8;
+    height:100px;
+    width:100px;
+    padding:5px;
+    margin-top: 30px;
+    margin-bottom: 170px;
+    margin-right: 100px;
+    margin-left: 250px;
+}
+
+.active{
+    display: block;
+}
+
+
+.image-next{
+    cursor: pointer;
+    
+    float: left;
+    //padding: 5px 10px 5px 10px; 
+    font-size: 15px;
+    
+}
+
+.image-previous{
+     cursor:pointer;
+     font-size: 15px;
+     
+     float: right;
+}
+/*Work Images End*/
+
+
+/*Battle Ship View Start*/
+/*.BattleShipMain{
+    
+    margin-right: 300px;
+}*/
+
+.BattleShipSummery{
+     /*border: solid;
+border-color: #006600;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+padding: 20px 20px;*/
+margin-right: auto;
+margin-left: auto;
+margin-top: 0px;
+margin-bottom: 30px;
+text-align: left;
+max-width:600px;
+}
+
+.DragonCombatSummery{
+   /* border: solid;
+border-color: #006600;*/
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+margin-right: auto;
+margin-left: auto;
+ padding: 20px 20px;
+margin-top: 0px;
+margin-bottom: 30px;
+text-align: left;
+max-width:600px;
+}
+
+.GuessThatNumberSummery{
+     /*border: solid;
+border-color: #006600;*/
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+margin-right: auto;
+margin-left: auto;
+ padding: 20px 20px;
+margin-top: 0px;
+margin-bottom: 30px;
+text-align: left;
+max-width:600px;
+}
+
+.HangmanSummery{
+     /*border: solid;
+border-color: #006600;*/
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+margin-right: auto;
+margin-left: auto;
+ padding: 20px 20px;
+margin-top: 0px;
+margin-bottom: 30px;
+text-align: left;
+max-width:600px;
+}
+/*Battle Ship View End*/
+
+/*Header Tabs Start*/
+div.HomeTab:hover{
+    width: 100px;
+    color: black;
+}
+
+div.AboutTab:hover{
+    width: 100px;
+    color: black;
+}
+
+div.WorkTab:hover{
+    width: 100px;
+    color: black;
+}
+
+div.ContactTab:hover{
+    width: 100px;
+    color: black;
+}
+div.HomeTab{
+    width: 75px;
+    padding: 3px;
+    transition: all 0.5s ease-in-out;
+    border: solid;
+    color: #F2E394;
+border-color: #8C4646;
+    display: inline-block;
+    margin: 3px 3px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+div.AboutTab{
+    width: 75px;
+    padding: 3px;
+    transition: all 0.5s ease-in-out;
+    border: solid;
+border-color: #8C4646;
+    color: #F2E394;
+    display: inline-block;
+    margin: 3px 3px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+div.WorkTab{
+    width: 75px;
+    padding: 3px;
+    transition: all 0.5s ease-in-out;
+    border: solid;
+border-color: #8C4646;
+    color: #F2E394;
+    display: inline-block;
+    margin: 3px 3px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+div.ContactTab{
+    width: 75px;
+    padding: 3px;
+    transition: all 0.5s ease-in-out;
+    border: solid;
+border-color: #8C4646;
+    color: #F2E394;
+    display: inline-block;
+    margin: 3px 3px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.Head{
+    text-align: center;
+    color: white;
+    border: black;
+}
+
+
+#HeadTabs{
+    display: inline-block;
+}
+/*Header Tabs Start*/
+
+/*About page start*/
+.AboutImage{
+   /* border: solid;*/
+border-color: #8C4646;
+border-radius: 50px 50px 50px 50px;
+margin: 30px auto 20px auto;
+text-align: center;
+max-height:250px;
+max-width:300px;
+}
+
+.AboutPage{
+    display: inline;
+    margin: 20% 20% 20% 20%;
+    align-items: center;
+}
+
+.AboutEducation {
+    display: inline-block;
+    /*border: solid;
+    border-color: #8C4646;*/
+    border-radius: 30px 30px 30px 30px;
+    margin: 0px 30px 0px 0px;
+    padding: 10px 10px;
+    align-content: center;
+    
+}
+
+.AboutExperience {
+    display: inline-block;
+    /*border: solid;
+    border-color:#8C4646;*/
+    padding: 10px 10px;
+    border-radius: 30px 30px 30px 30px;
+     margin: 0px 30px 0px 0px;
+}
+
+.LinkedInLogo {
+    display: inline-block;
+    /*border-color: #8C4646;
+    border: solid;*/
+    padding: 10px 10px;
+    border-radius: 30px 30px 30px 30px;
+     margin: 0px 30px 0px 0px;
+}
+
+/*About Page End*/
+
+/*Contact Form Start*/
+textarea {
+    background-color: white ;
+    color: black;
+    height: 150px;
+    width: 400px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+
+input[type="text"] {
+    background-color: white ;
+    color: black;
+    width: 200px;
+    height: 30px;
+    align-content:center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.ErrorMessage{
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="submit"]{
+    background-color: #b6a8a8;
+    color: black;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+ 
+/*Contact Form End*/

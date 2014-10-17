@@ -12,6 +12,6 @@
     <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
     <Property Name="Email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
     <Property Name="PhoneNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
-    <Property Name="Coment" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Comment" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
   </EntityType>
 </Schema>

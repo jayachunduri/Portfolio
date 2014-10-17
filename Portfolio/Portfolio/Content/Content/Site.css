@@ -1,0 +1,565 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: black;
+    background-color: #009933;
+
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+.Name{
+    text-align: center;
+    color: black;
+}
+
+
+a{
+    color: #000099;
+}
+
+a:hover{
+    
+    color:#660033;
+}
+
+.Footer {
+            
+            color:black;
+            clear:both;
+            text-align:center;
+            padding:5px; 
+}
+
+.footerLeft {
+    float:left;
+    
+}
+
+.footerRight {
+    float:right;
+}
+
+.ContactHeader{
+    display:inline;
+}
+
+.LogoImage{
+    display:inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 200px;
+    margin-left: 50px;
+    
+}
+
+.ContactHeadRight{
+    display:inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 200px;
+    margin-left: 50px;
+    float: right;
+}
+
+.Container{
+    display:inline;
+}
+
+.ContainerAboutMe {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 200px;
+    margin-left: 150px;
+    
+}
+
+.ContainerWork{
+    
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 200px;
+    margin-left: 100px;
+    
+}
+
+.ContainerContact{
+    
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    margin-left: 100px;
+    
+}
+
+.ContainerImage{
+    
+   background: center center no-repeat;
+   align-items: center;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+.editor-field {
+    width: 50px;
+    height: 50px:
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    /*border: 1px solid #ddd;*/
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+
+
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/*Work Carousel Start*/
+.hide{
+    display: none;
+}
+
+/*Work Carousel End*/
+
+/*Work Images Start*/
+.WorkImagesSection1 {
+    display: inline;
+}
+
+.BattleShipImages{
+    display: inline-block;
+    max-height: 90px;
+    max-width: 90px;
+    background-color:#b6a8a8;
+    padding:5px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 300px;
+    
+}
+
+.DragonCombatImages{
+    display: inline-block;
+   
+    background-color:#b6a8a8;
+    height:100px;
+    width:100px;
+    padding:5px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 250px;
+}
+
+.WorkImagesSection2 {
+    display: inline-block;
+}
+
+.GuessThatNumberImages{
+    display: inline-block;
+    max-height: 90px;
+    max-width: 90px;
+    background-color:#b6a8a8;
+    padding:5px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 300px;
+}
+
+.HangmanImages{
+    display: inline-block;
+   
+    background-color:#b6a8a8;
+    height:100px;
+    width:100px;
+    padding:5px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 250px;
+}
+
+.active{
+    display: block;
+}
+
+
+.image-next{
+    cursor: pointer;
+    
+    float: left;
+    //padding: 5px 10px 5px 10px; 
+    font-size: 15px;
+    
+}
+
+.image-previous{
+     cursor:pointer;
+     font-size: 15px;
+     
+     float: right;
+}
+/*Work Images End*/
+
+
+/*Battle Ship View Start*/
+.BattleShipMain{
+    
+    margin-right: 300px;
+}
+
+.BattleShipSummery{
+     border: double;
+border-color: #700000;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+margin-right: auto;
+margin-left: auto;
+ padding: 20px 20px;
+/*margin-top: 100px;
+margin-bottom: 100px;*/
+text-align: left;
+max-width:600px;
+}
+
+.DragonCombatSummery{
+     border: double;
+border-color: #700000;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+margin-right: auto;
+margin-left: auto;
+ padding: 20px 20px;
+/*margin-top: 100px;
+margin-bottom: 100px;*/
+text-align: left;
+max-width:600px;
+}
+
+.GuessThatNumberSummery{
+     border: double;
+border-color: #700000;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+margin-right: auto;
+margin-left: auto;
+ padding: 20px 20px;
+/*margin-top: 100px;
+margin-bottom: 100px;*/
+text-align: left;
+max-width:600px;
+}
+
+.HangmanSummery{
+     border: double;
+border-color: #700000;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+margin-right: auto;
+margin-left: auto;
+ padding: 20px 20px;
+/*margin-top: 100px;
+margin-bottom: 100px;*/
+text-align: left;
+max-width:600px;
+}
+/*Battle Ship View End*/
+
+/*Header Tabs Start*/
+div.HomeTab:hover{
+    width: 100px;
+    color: black;
+}
+
+div.AboutTab:hover{
+    width: 100px;
+    color: black;
+}
+
+div.WorkTab:hover{
+    width: 100px;
+    color: black;
+}
+
+div.ContactTab:hover{
+    width: 100px;
+    color: black;
+}
+div.HomeTab{
+  
+    padding: 2px;
+    transition: background-color 0.5s ease-out, color 0.5s ease-out, padding-right 1s;
+   border: double;
+    border-color: #700000;
+    display: inline-block;
+    margin: 3px 3px;
+    -webkit-transition: background-color 0.5s ease-out, color 0.5s ease-out, padding-right 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s ease-out;
+    transition-duration: 10s;
+    border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+   
+}
+
+div.AboutTab{
+    border: double;
+    border-color: #700000;
+    display: inline-block;
+    -webkit-transition: background-color 0.5s ease-out, color 0.5s ease-out, padding-right 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s easy-out;
+        border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+div.WorkTab{
+    border: double;
+    border-color: #700000;
+    display: inline-block;
+    transition: background-color 0.5s ease-out, color 0.5s ease-out, padding-right 1s;
+        border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+div.ContactTab{
+    border: double;
+    border-color: #700000;
+    display: inline-block;
+        border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+
+.Head{
+    text-align: center;
+    color: white;
+    border: black;
+}
+
+
+#HeadTabs{
+    display: inline-block;
+}
+/*Header Tabs Start*/
+
+/*About page start*/
+.AboutImage{
+    border: double;
+border-color: #700000;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+max-height:250px;
+max-width:300px;
+}
+
+.AboutPage{
+    display: inline;
+}
+
+.AboutEducation {
+    border: double;
+    border-color: #700000;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 250px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.AboutExperiance {
+    border: double;
+    border-color: #700000;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 200px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+/*About Page End*/
+
+/*Contact Form Start*/
+textarea {
+    background-color: #33CC99;
+    color: #660033;
+    min-height: 150px;
+    min-width: 400px;
+    border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+
+}
+
+input[type="text"] {
+    background-color: #33CC99;
+    color: #660033;
+    width: 200px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+input[type="email"]{
+    background-color: #33CC99;
+    color: #660033;
+    width: 170px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
+
+input[type="tel"]{
+    background-color: #33CC99;
+    color: #660033;
+    width: 170px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
+
+input[type="submit"]{
+    background-color: #660066;
+    color: #CCFF33;
+    width: 200px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+ 
+
+.NameDivision{
+    display: inline;
+}
+
+.FirstName{
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 390px;
+    
+}
+
+.LastName{
+    display: inline-block;
+     margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 100px;
+    
+}
+
+.EmailPhoneDivision{
+    display: inline;
+}
+
+.Email{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+    margin-left: 410px;
+    
+}
+
+.Phone{
+    display: inline-block;
+     margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    
+}
+
+.Comment{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 490px;
+}
+/*Contact Form End*/
